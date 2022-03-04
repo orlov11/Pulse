@@ -2,4 +2,51 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../../assets/bg.jpg)  no-repeat;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__title{
+        font-size: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+        font-weight: 700;
+        margin: 0;
+    }
+    &__subtitle{
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+        width: 425px;
+    }
+    &__icon{
+        width: 120px;
+        text-align: center;
+        color: #FFFFFF;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link{
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        a{
+            text-decoration: underline;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+    }
+
 }
