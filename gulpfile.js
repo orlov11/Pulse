@@ -31,3 +31,4 @@ gulp.task('watch', function() {
 })
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
+//  на новом ПК  в  powar Shall от админа (Set-ExecutionPolicy Unrestricted) и установить gulp(npm i -g gulp)
