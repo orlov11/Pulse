@@ -5,6 +5,9 @@
     &__wrapper{
         display: flex;
         justify-content: space-between;
+        @media (max-width: 768px){
+            flex-direction: column;
+        }
     }
     &__title{
         text-align: center;
@@ -12,6 +15,13 @@
         font-size: 30px;
         color: #0D0D0D;
         margin-bottom: 60px;
+        @media(max-width: 568px){
+            font-size: 25px;
+        }
+        @media(max-width: 320px){
+            font-size: 21px;
+        }
+        
     }
     &__item{
         display: flex;
@@ -31,12 +41,19 @@
         text-align: center;
         color: #0D0D0D;
         margin-bottom: 20px;
+        @media(max-width: 320px){
+            font-size:16px;
+        }
     }
     &__descr{
         width: 270px;
-        min-height: 70px;
+        min-height: 90px;
+        text-align: center;
         a{
             color: #FF0000;
+        }
+        @media (max-width: 768px){
+            margin: 0 auto 25px auto;
         }
     }
 
