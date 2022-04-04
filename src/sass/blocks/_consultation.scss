@@ -1,0 +1,17 @@
+.consultation{
+    background: url(../assets/bg_cons.png) no-repeat;
+    padding: 100px 0 108px;
+    min-height: 680px;
+    .title{
+        font-weight: 700;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__descr{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-bottom: 36px;
+    }
+}
