@@ -9,20 +9,7 @@
             flex-direction: column;
         }
     }
-    &__title{
-        text-align: center;
-        font-weight: 700;
-        font-size: 30px;
-        color: #0D0D0D;
-        margin-bottom: 60px;
-        @media(max-width: 568px){
-            font-size: 25px;
-        }
-        @media(max-width: 320px){
-            font-size: 21px;
-        }
-        
-    }
+
     &__item{
         display: flex;
         flex-direction: column;
@@ -57,4 +44,19 @@
         }
     }
 
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0D0D0D;
+    margin-bottom: 60px;
+    @media(max-width: 568px){
+        font-size: 25px;
+    }
+    @media(max-width: 320px){
+        font-size: 21px;
+    }
+    
 }
